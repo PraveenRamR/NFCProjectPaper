@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+    margin: 10px;
+}
+.doc{
+    width: 60px;
+    cursor: pointer;
+    margin: 15px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.rating{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.star{
+    width:25px;
+}
+.profile{
+    text-align: center;
+}
+.pp{
+    width: 200px;
+}
+.m-info{
+    padding-top: 6%;
+    font-size: 23px;
+    color: darkblue;
+}
+.info{
+    background-color: blanchedalmond;
+    padding-top: 2%;
+    position: relative;
+    margin-bottom: 5%;
+}
+.info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+.mail{
+    width: 25px;
+}
+.a1{
+    width: 20px;
+    padding-left: 5%;
+}
+.info h2{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.a2{
+    width: 60px;
+    margin: 10%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    margin: 5%;
+    align-items: center;
+    text-align: center;
+}
+.buttons a{
+    text-decoration: none;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
